@@ -83,14 +83,15 @@ button:active {
   justify-content: space-between;
   padding-bottom: 10px;
   cursor: pointer;
+  gap: 10px;
 }
 
 #hourly-forecast::-webkit-scrollbar {
-  height: 8px; 
+  height: 8px;
 }
 
 #hourly-forecast::-webkit-scrollbar-track {
-  background: #fff; 
+  background: #fff;
   border-radius: 10px;
 }
 
@@ -98,7 +99,6 @@ button:active {
   background: #f4ec9c;
   border-radius: 10px;
 }
-
 
 .hourly-item {
   flex: 0 0 auto;
